@@ -28,7 +28,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Facultatif : seulement si tu as un script "build" dans package.json
       - name: Build application
         run: npm run build
         continue-on-error: true
